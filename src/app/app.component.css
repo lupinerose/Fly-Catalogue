@@ -1,5 +1,13 @@
 .title-area {
   text-align: center;
+  background-image: url("../assets/img/header.jpg");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+  color: white;
 }
 
 #newDisplay {

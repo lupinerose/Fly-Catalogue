@@ -1,4 +1,6 @@
 <div class="title-area">
+  <br>
+  <br>
   <h1>{{title}}</h1>
   <h2>Good, like fly fishin'</h2>
   <br>
@@ -55,7 +57,7 @@
     <ul>
       <div class="row">
         <div class="col-md-6">
-          <p (click)="open(fly)">{{fly.name}}</p>
+          <p *ngFor="let fly of flies" (click)="open(fly)">{{fly.name}}</p>
         </div>
         <div class="col-md-6">
           <div *ngIf="selectedFly">
@@ -70,5 +72,3 @@
       </div>
     </ul>
 </div>
-
-<!-- <p> *ngFor="let "</p> -->
