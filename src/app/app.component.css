@@ -7,7 +7,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 50px;
-  color: white;
+  color: black;
+  text-shadow: 2px 2px #ffffff;
+}
+.title-area h1 {
+  font-size: 60px;
 }
 
 #newDisplay {
