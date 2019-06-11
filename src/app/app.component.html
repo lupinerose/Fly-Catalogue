@@ -1,3 +1,24 @@
-<h1>
-  {{title}}
-</h1>
+<div class="title-area">
+  <h1>{{title}}</h1>
+  <h2>Good, like fly fishin'</h2>
+</div>
+<div class="main">
+  <form>
+    <h3>Add a new Fly</h3>
+    <label for="fly-name" name="fly-name" type="text">Name</label>
+    <input type="text" name="fly-name"><br>
+    <label for="fly-description" name="fly-description" type="text">Description</label>
+    <input type="text" name="fly-description"><br>
+    <label for="fly-have" name="fly-have" type="text">Add to 'Flies I own'</label>
+    <input type="text" name="fly-have"><br>
+    <label for="fly-wish" name="fly-wish" type="text">Add to Wish List</label>
+    <input type="radio" name="fly-have" value="true">
+    <input type="radio" name="fly-have" value="false"><br>
+    <label for="fly-packed" name="fly-packed" type="text">Add to Pack List</label>
+    <input type="text" name="fly-packed"><br>
+    <label for="fly-image" name="fly-image" type="text">image url</label>
+    <input type="text" name="fly-image"><br>
+    <button type="submit" name="button">Add new Fly to Catalogue</button>
+  </form>
+  <!-- <p> *ngFor="let "</p> -->
+</div>
