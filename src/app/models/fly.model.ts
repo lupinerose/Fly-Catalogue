@@ -1,3 +1,3 @@
 export class Fly {
-  constructor(public name: string, public description: string, public have: boolean, public wishList: boolean, public packList: boolean, public image: string) {}
+  constructor(public name: string, public description: string, public have: string, public wishList: string, public packList: string, public image: string) {}
 }

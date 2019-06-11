@@ -8,7 +8,16 @@ import { Fly } from './models/fly.model';
 })
 export class AppComponent {
   title = 'Catalogue of Flies!';
-  addFly() {
-    
+  flies: Fly[] = [];
+  add(name, description, have, wish, pack, image){
+    let newFly: Fly = new Fly(name, description, have, wish, pack, image);
+    this.flies.push(newFly);
+  }
+
+  selectedFly: Fly = null;
+
+
+  open(clickedFly){
+    this.selectedFly = clickedFly;
   }
 }

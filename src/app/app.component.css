@@ -1,3 +1,7 @@
-title-area {
+.title-area {
   text-align: center;
+}
+
+#newDisplay {
+  border: 3px solid black;
 }
